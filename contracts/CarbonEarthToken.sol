@@ -571,7 +571,7 @@ contract CarbonEarthToken is ERC20, Ownable {
 
     uint256 private constant MAX_SUPPLY = 200_000_000 * 10**18;
 
-    constructor() ERC20("Carbon Earth Token", "CARBN") Ownable(msg.sender) {
+    constructor() ERC20("Carbon Exchange Token", "CXT") Ownable(msg.sender) {
         _mint(msg.sender, MAX_SUPPLY);
     }
 

@@ -7,7 +7,7 @@ To install, run:
 ```shell
 yarn
 npx hardhat test
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
+npx hardhat ignition deploy ./ignition/modules/CarbonEarthToken.ts
 ```
 
 To deploy, run:
